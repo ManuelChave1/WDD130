@@ -1,0 +1,87 @@
+  /* body section */
+body{
+    background-color: #869ba9;
+}
+/* header nava section */
+header{
+    background-color: #121a32;
+}
+nav{
+    color: white;
+}
+nav a{
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color:#e25437;
+}
+.logo{
+    width: 80px;
+}
+                  /* hero  and main  section*/
+nav a ,#hero-msg h1, #hero-msg h4 ,.button-box ,main section{
+                    text-align: center;
+                }                 
+.icon{
+    width: 80px;
+}
+#hero-msg h4{
+
+}
+
+.book{
+    text-decoration: none;
+    color: white;
+    background-color: #6e6871;
+}
+.book:hover{
+    background-color: #e25437;
+}
+
+.join{
+    text-decoration: none;
+    color: white;
+    background-color: #6e6871;
+}
+.join:hover{
+    background-color: #e25437;
+}
+.msg{
+    background-color: #6e6871;
+    color: white;
+}
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+nav a ,#hero-msg h1, #hero-msg h4 ,.button-box ,main section{
+    text-align: center;
+}
+
+#background{
+    height: 725px;
+    background-color: #e25437;
+}
+
+
+
+                             /* Footer Section */
+footer{
+    background-color: #6e6871;
+    color: white;
+}
+footer p{
+    font-size: 1.2em;
+}
+footer p a{
+    text-decoration: none;
+    color:#ccb7bc;
+}
+footer p a:hover{
+    text-decoration: underline;
+}
+
+
