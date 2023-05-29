@@ -131,6 +131,7 @@
   margin-left: -100px;
 } 
 /* Activity 5 styles */ 
+/* Unfortunately I had a lot of difficulty doing exercise 5, but I will study the grid layout a little more to improve this. */
 .content5 {
   /* This is the parent of the activity 5 boxes. */
   height: 400px;
@@ -148,6 +149,7 @@
   height: 100px; 
   background-color: green; 
 } 
+
 .yellow5 {
   width: 550px; 
   height: 200px; 
