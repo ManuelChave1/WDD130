@@ -145,11 +145,7 @@ nav a ,#hero-msg h1, #hero-msg h4 ,.button-box ,main section{
 main section img {
     box-sizing: border-box;
 }
-#background{
-    height: 725px;
-    background-color: #e25437;
-    margin-bottom: 20px;
-}
+
 
 .mountains {
     width: 100%;
