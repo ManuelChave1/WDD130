@@ -1,16 +1,17 @@
-/* Resetamdo o Css */
+/* Resetting o Css */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  /* Tipografia */
+  /* Tipographi */
   body {
     font-family: Arial, sans-serif;
+    color: #fff;
     font-size: 16px;
     line-height: 1.5;
-    background-color: #A5BEFA;
+    background-color:#121a32;
     overflow-x: hidden;
   }
   
@@ -29,7 +30,7 @@
   }
 
   header h1{
-    color: #451531;
+    color:#FFBA00;
   }
   
   nav ul {
@@ -43,21 +44,21 @@
   
   nav a {
     text-decoration: none;
-    color: #B3093F;
+    color: #FFBA00;
   }
 
   nav a:hover{
-    color: #451531;
+    color:  #FDB095;
   }
   
   
 
-                         /* Configuracao da sections dentro de boas vindas */
+                         /* Welcome hero configuration*/
    .welcome{
      width: 100%;
      height: 100vh;
    }                                        
-  .welcome-conteudo{
+  .welcome-content{
     float: left; 
     width: 500px;
     height: 250px;
@@ -66,35 +67,37 @@
     text-align: center;
  } 
  
-.welcome-conteudo h1{
+.welcome-content h2{
     font-size: 2rem;
-    color: #B3093F;
+    color: #FDB095 ;
 }
  section p{
     font-size: 1rem;
+    color:#FDB095 ;
 }
 
 section span{
   font-size: 1.5rem;
+  color: #FFBA00;
 }
 
-.botoes1 button{
+.btn button{
   width: 100px;
   height: 30px;
   margin-top: 20px;
   margin-right: 20px;
   color: white;
-  background: #451531;
+  background:#E5958E;
   border-radius: 8px;
   border: none;
 }
 
-.botoes1 button:hover{
+.btn button:hover{
   color: #6487CC;
   background-color:#B3093F ;
 }
 
-                            /* Aside da primeira secção */
+                            /* aside set up */
  aside{
     float:  right;
     width: 450px;
@@ -114,53 +117,62 @@ aside img:hover{
 }
   
                                   /* Configuração da Secção sobre mim */
- .sobreMim{
+ .aboutme{
   width: 100%;
   height: 500px;
   color: white;
   background-color: rgba(0, 0, 0, 0.61);
  }                                 
  
-  .sobreMim article{
+  .aboutme article{
     width: 500px;
     height: 250px;
     padding-top: 80px;
     margin: auto;
   }
 
-  .sobreMim h1{
+  .aboutme h2{
     font-size: 2rem;
-    color: #B3093F;
+    color: #FFBA00;
   }
 
-  .sobreMim p{
+  .aboutme p{
      font-size: 1em;
   }
 
-  .sobreMim button{
+  .aboutme button{
     width: 100px;
     height: 30px;
     margin-top: 20px;
     margin-right: 20px;
     color: white;
-    background: #451531;
+    background: #B3093F;
     border-radius: 8px;
     border: none;
   }
- .sobreMim button:hover{
-    color: #6487CC;
-    background-color:#B3093F ;
+ .aboutme button:hover{
+    color: #121a32;
+    background-color:#E5958E ;
+  }
+
+
+
+
+  .projects ul li img{
+    width: 90px;
+    height: 100px;
+    
   }
 
                                             /*configuracao da secção de  Projectos */
-  .projectos {
+  /* .projects {
     padding: 50px;
     margin-top: 30px;
     margin-left: 3px;
     background-color: rgba(0, 0, 0, 0.61);
   }  
 
-  .projectos h2 {
+  .projects h2 {
     font-size: 28px;
     font-weight: bold;
     padding-top: 30px;
@@ -169,7 +181,7 @@ aside img:hover{
     text-align: center;
   }
   
-  .projectos ul {
+  .projects ul {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -178,42 +190,43 @@ aside img:hover{
     margin: 0;
   }
   
-  .projectos li {
+  .projects li {
     width: calc(33.33% - 20px);
     margin-bottom: 40px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
   }
   
-  .projectos li:hover {
+  .projects li:hover {
     transform: translateY(-5px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
   
-  .projectos li a {
+  .projects li a {
     display: block;
     text-align: center;
   }
   
-  .projectos li img {
+  .projects li img {
     width: 100%;
     height: 150px;
     border-radius: 5px 5px 0 0;
   }
   
-  .projectos li h3 {
+  .projects li h3 {
     font-size: 18px;
     font-weight: bold;
     margin: 10px 0;
     color: #451531;
   }
-  .projectos li p{
+  .projects li p{
     color: white;
     font-size: 0.8rem;
   }
 
   
-                                            /* Seccao das  Habilidades */
+    
+  Seccao das  Habilidades 
   .skills {
     width: 97%;
     height: 450px;
@@ -239,19 +252,19 @@ aside img:hover{
     flex-wrap: wrap;
     /* list-style: none; */
    /* padding: 0;
-    margin: 0; */
+    /* margin: 0;  
   }
-  
+  /*  
   .skill {
     text-align: center; 
     width: calc(20% - 20px); 
-    /* margin-bottom: 20px;  */
+    /* margin-bottom: 20px;  
   }
   
  .skill i {
     font-size: 50px;
     color: yellow;
-    /* margin-bottom: 20px; */
+    /* margin-bottom: 20px; 
   } 
   
   .skill h3 {
@@ -267,7 +280,7 @@ aside img:hover{
     color: white;
   }
 
-                               /* Section das experiencias */
+                               /* Section das experiencias
   .experience {
     margin-bottom: 70px;
     height: 350px;
@@ -284,10 +297,10 @@ aside img:hover{
     height: 250px;
     padding-top: 50px;
     margin: auto;
-  }
+  } 
 
-                                   /* Seccao de contatos */
- .contatos{
+                                   /* Seccao de contatos 
+ .contacts{
   width: 100%;
   height: 100px;
   color: #fff;
@@ -295,4 +308,4 @@ aside img:hover{
   text-align: center;
   
  }
-  
+   */
