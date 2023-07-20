@@ -163,9 +163,61 @@ aside img:hover{
     height: 100px;
     
   }
+                        /* Css of A Tab Gallery */
+                        /* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+
+
 
                                             /*configuracao da secção de  Projectos */
-  /* .projects {
+  .projects {
     padding: 50px;
     margin-top: 30px;
     margin-left: 3px;
@@ -225,9 +277,9 @@ aside img:hover{
   }
 
   
-    
-  Seccao das  Habilidades 
-  .skills {
+ 
+   /* Seccao das  Habilidades  */
+  /* .skills {
     width: 97%;
     height: 450px;
     margin: 20px;
@@ -250,21 +302,21 @@ aside img:hover{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* list-style: none; */
-   /* padding: 0;
-    /* margin: 0;  
+     list-style: none; 
+    padding: 0;
+     margin: 0;  
   }
-  /*  
+    
   .skill {
     text-align: center; 
     width: calc(20% - 20px); 
-    /* margin-bottom: 20px;  
+     margin-bottom: 20px;  
   }
   
  .skill i {
     font-size: 50px;
     color: yellow;
-    /* margin-bottom: 20px; 
+     margin-bottom: 20px; 
   } 
   
   .skill h3 {
@@ -278,7 +330,7 @@ aside img:hover{
     font-size: 14px;
     line-height: 1.4;
     color: white;
-  }
+  } */ 
 
                                /* Section das experiencias
   .experience {
